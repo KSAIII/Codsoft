@@ -1,0 +1,174 @@
+body
+{
+background-color:#d8eff0;
+}
+
+#navigation
+{
+display:inline-block;
+font-size:19px;
+}
+#navigation img {
+      width: 50px; 
+      height: 50px; 
+      vertical-align:middle;
+      margin-top:1px;
+    }
+#navigation h3
+{
+display:inline-block;
+margin-left:0px;
+vertical-align:middle;
+color:#3b474a;
+}
+#navigation a {
+text-decoration:none;
+margin-left:150px;
+ margin-top:1px;
+color:#484d54;
+
+
+}
+#navigation a:hover
+{
+color:#e85f98;
+}
+ btn
+{
+border:none;
+color:orange;
+background-color:#8f2c55;
+
+text-decoration:none;
+font-size:19px;
+}
+#bg-image
+{
+width:100%;
+position:relative;
+overflow:hidden;
+}
+#bg-image img
+{
+width:100%;
+height:55%;
+display:block;
+}
+#txt-overlay
+{
+position:absolute;
+top:20%;
+left:12%;
+transform: translate(-50%, -50%);
+font-size: 24px;
+background-color: yellow;
+padding:10px 20px;
+border-radius: 5px;
+
+}
+#txt-overlay br {
+   margin-bottom:10px;
+  }
+#txt-overlay-1
+{
+position:absolute;
+top:20%;
+left:12%;
+transform: translate(-50%, -50%);
+font-size: 24px;
+background-color: yellow;
+padding:10px 20px;
+border-radius: 5px;
+}
+.paragraph
+{
+color:#66686b;
+position:absolute;
+font-size:23px;
+top:24%;
+left:18%;
+}
+#button-3
+{
+position:absolute;
+top:43%;
+left:250px;
+}
+#button-3 button
+{
+background-color: #45afed;
+border:none;
+border-radius:100px;
+color:white;
+font-size:19px;
+
+padding:10px 20px;
+}
+#button-3 button:hover
+{
+color:yellow;
+background-color:#525f66;
+}
+#email-form {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 35;
+font-size:55px; 
+  border:none; 
+  }
+#email {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Add rounded border */
+color:#5d6120;
+font-size:19px;
+  }
+#email :hover
+{
+background-color:yellow;
+}
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media li {
+  margin-right: 10px;
+}
+
+p
+{
+font-size:22px;
+left:15px;
+align-content:center;
+}
